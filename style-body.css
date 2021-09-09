@@ -1,0 +1,65 @@
+.row {
+    display: flex;
+}
+.pat {
+    background-color: chartreuse;
+    border: solid 1px #000;
+    width: 50%;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.pat_1 {
+    background-image: url('img/pat1.png');
+}
+.pat_2 {
+    background-image: url('img/pat2.jpg');
+}
+.pat_3 {
+    background-image: url('img/pat3.jpg');
+}
+.pat_4 {
+    background-image: url('img/pat4.jpg');
+}
+.pat button {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    width: 200px;
+    margin: 25px auto;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.pat span {
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    font-size: 25px;
+}
+.pat a {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    color: #ca0404;
+    cursor: pointer;
+    text-decoration: none;
+}
+.pat p {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    background: #fff;
+    width: 350px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.pat h2 {
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+button img {
+    height: 20px;
+}
